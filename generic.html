@@ -19,108 +19,114 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
+						<a href="index.html" class="logo">Back</a>
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="index.html">This is Massively</a></li>
-							<li class="active"><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+				<nav id="nav">
+					<ul class="links">
+						<li class="active"><a href="index.html"> Past Projects</a></li>
+						<li class="active"><a href="generic.html">Current Projects</a></li>
+					<!-- <li><a href="#projects">Current Projects</a></li> -->
+						<li><a href="Portfolio_Resume.pdf">My Resume</a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/geo5chebly/" class="icon brands fa-linkedin"><span class="label">Linked-in</span></a></li>
+						<li><a href="https://github.com/dashboard" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+				</nav>
 
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Post -->
-							<section class="post">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h1>This is a<br />
-									Generic Page</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+						<section id="projects" class="posts">
+							<header class="major">
+								<h2>Current Projects</h2>
+								<p>Here are some of the exciting projects I am currently working on:</p>
+								<header>
+									<h3>6 DOF cable driven Robotic Arm</h3>
+									<h3>Guide Dog Robot</h3>
+									<h3>Humanoid from the torso up</h3>
 								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
-							</section>
+							</header>
+					
+							<!-- Project 1 -->
+							<article>
+								<header>
+									<h3>Quadruped Guide Dog Robot</h3>
+								</header>
+								<video width="360" height="350" controls>
+									<source src="video/Guide_dog_CAD.mp4" type="video/mp4">
+								</video>
+								<p>
+									I am leading a team to design a power-efficient, lightweight quadruped guide dog robot for visually impaired individuals. This project addresses the limitations of existing robots like the Unitree Go 1.
+									I contributed to multiple aspects of the project, including designing the body made of sheet metal and securing the electronics in place. Additionally, I worked on various analyses such as structural, kinematics, dynamics, and stair-climbing analysis.
+								</p>
+								<ul class="actions special">
+									<li><a href="Capstone_midyear_FinalReport.pdf" class="button">Read More: Mid-Year Report</a></li>
+									<li><a href="Poster.pdf" class="button">Design Showcase Poster</a></li>									
+								</ul>
+								<ul class="actions special">		
+									<li><a href="cs690k_Final_Project.pdf" class="button">Stair Climbing Analysis</a></li>								
+								</ul>
+								
+							</article>
+					
+							<!-- Project 2 -->
+							<article>
+								<header>
+									<h3>6 DOF Robotic Arm</h3>
+								</header>
+								<a href="#" class="image fit"><img src="images/robotic-arm-CAD.jpg" alt="6 DOF Robotic Arm" /></a>
+								<p>
+								    I am developing a 6 Degrees-of-Freedom (DOF) robotic arm designed to lift a 1 kg payload using affordable Nema 17 stepper motors as part of my honors thesis 
+									in the DaROS lab under Professor Donghyun Kim. To achieve a lighter design, I implemented a cable-driven mechanism that allows the motors to be mounted at the shoulder (base) rather than on each distal joint (elbow and wrist). 
+									The robotic arm features a shoulder with two DOFs, an elbow with one DOF, and a wrist with three DOFs.The shoulder yaw utilizes an 8:1 capstan drive.The shoulder pitch combines a belt transmission with a capstan drive that acts as planetary gear for extra torque.
+									The elbow features a double belt transmission with an appropriate reduction ratio. The wrist mechanism is currently under development but will include a cable-driven bevel gear system. 
+								</p>
+								<a href="#" class="image fit"><img src="images/Arm_under_dev.jpg" alt="6 DOF Robotic Arm" /></a>
 
-					</div>
+								<!--<ul class="actions">
+									<li><a href="#" class="button">Read More</a></li>
+								</ul>-->
+							</article>
 
 				<!-- Footer -->
-					<footer id="footer">
+				<footer id="footer">
+					<section class="split contact">
+						<section class="alt">
+							<h3>Address</h3>
+							<p><a href="#"></a>358 read street<br />
+							Somerset, MA 02726</a></p>
+						</section>
 						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+							<h3>Phone</h3>
+							<p><a href="#">(413) 399-9106</a></p>
 						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">geo.chebly@gmail.com</a></p>
 						</section>
-					</footer>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/geo5chebly/" class="icon brands fa-linkedin"><span class="label">Linked-in</span></a></li>
+								<li><a href="https://github.com/dashboard" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							</ul>									
+						</section>
+					</section>
+				</footer>
+		</div>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
